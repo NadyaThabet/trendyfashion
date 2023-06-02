@@ -1,0 +1,81 @@
+.dash-text {
+  width: 40%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .users-div {
+    flex-direction: column !important;
+    align-items: center !important;
+    height: 90% !important;
+  }
+  .users-num {
+    width: 100% !important;
+    margin-top: 0em !important;
+    height: 60vh !important;
+  }
+  .prdct-div {
+    width: 100% !important;
+    margin-top: 0em !important;
+    height: 60vh !important;
+  }
+  .all-div {
+    height: 145vh !important;
+    margin-top: -2em;
+    margin-bottom: -4em;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .users-div {
+    flex-direction: column !important;
+    align-items: center !important;
+    height: 60% !important;
+  }
+  .users-num {
+    width: 85% !important;
+    margin-top: 0em !important;
+    height: 36vh !important;
+  }
+  .prdct-div {
+    width: 85% !important;
+    margin-top: 0em !important;
+    height: 36vh !important;
+  }
+  .all-div {
+    height: 135vh !important;
+    margin-top: -12em;
+    margin-bottom: -16em;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .users-div {
+    flex-direction: column !important;
+    align-items: center !important;
+    height: 60% !important;
+  }
+  .users-num {
+    width: 85% !important;
+    margin-top: 0em !important;
+    height: 36vh !important;
+  }
+  .prdct-div {
+    width: 85% !important;
+    margin-top: 0em !important;
+    height: 36vh !important;
+  }
+  .all-div {
+    height: 135vh !important;
+    margin-top: -18em;
+    margin-bottom: -20em;
+  }
+  .shw {
+    font-size: 24px;
+  }
+  .h-text {
+    font-size: 30px !important;
+  }
+  .span-txt {
+    font-size: 35px !important;
+  }
+}

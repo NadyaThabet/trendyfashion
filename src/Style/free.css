@@ -1,0 +1,141 @@
+.free-div {
+  background-image: url(./Images/about-us.jpg);
+  width: 100%;
+  height: 10vh;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.free-div::after {
+  position: absolute;
+  content: "";
+  background-color: rgba(0%, 0%, 0%, 50%);
+  width: 100%;
+  height: 10vh;
+  z-index: 2;
+}
+
+.free-text {
+  z-index: 3;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .free-div {
+    background-image: url(./Images/about-us.jpg) !important;
+    width: 100% !important;
+    height: 22vh !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    position: relative !important;
+  }
+  .free-div::after {
+    position: absolute;
+    content: "";
+    background-color: rgba(0%, 0%, 0%, 50%);
+    width: 100%;
+    height: 22vh;
+    z-index: 2;
+  }
+  .free-text {
+    z-index: 3;
+    font-size: 20px !important;
+    width: 89%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .free-div {
+    background-image: url(./Images/about-us.jpg) !important;
+    width: 100% !important;
+    height: 10vh;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    position: relative !important;
+  }
+  .free-div::after {
+    position: absolute;
+    content: "";
+    background-color: rgba(0%, 0%, 0%, 50%);
+    width: 100%;
+    height: 10vh;
+    z-index: 2;
+  }
+  .free-text {
+    z-index: 3;
+    font-size: 17px !important;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .free-div {
+    background-image: url(./Images/about-us.jpg) !important;
+    width: 100% !important;
+    height: 10vh;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    position: relative !important;
+  }
+  .free-div::after {
+    position: absolute;
+    content: "";
+    background-color: rgba(0%, 0%, 0%, 50%);
+    width: 100%;
+    height: 10vh;
+    z-index: 2;
+  }
+  .free-text {
+    z-index: 3;
+    font-size: 27px !important;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .free-div {
+    background-image: url(./Images/about-us.jpg) !important;
+    width: 100% !important;
+    height: 10vh;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    position: relative !important;
+  }
+  .free-div::after {
+    position: absolute;
+    content: "";
+    background-color: rgba(0%, 0%, 0%, 50%);
+    width: 100%;
+    height: 10vh;
+    z-index: 2;
+  }
+  .free-text {
+    z-index: 3;
+    font-size: 36px !important;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .free-div {
+    background-image: url(./Images/about-us.jpg) !important;
+    width: 100% !important;
+    height: 10vh;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    position: relative !important;
+  }
+  .free-div::after {
+    position: absolute;
+    content: "";
+    background-color: rgba(0%, 0%, 0%, 50%);
+    width: 100%;
+    height: 10vh;
+    z-index: 2;
+  }
+  .free-text {
+    z-index: 3;
+    font-size: 36px !important;
+    width: 80%;
+  }
+}

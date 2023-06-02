@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.login-div {
+  height: 36vh;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .login-div {
+    height: 65vh;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .login-div {
+    height: 42vh;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .login-div {
+    height: 35vh;
+    font-size: 20px;
+  }
+  .sub {
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .login-div {
+    height: 35vh;
+    font-size: 24px;
+  }
+  .sub {
+    font-size: 22px;
+  }
+}

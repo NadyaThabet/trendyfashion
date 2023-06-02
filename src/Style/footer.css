@@ -1,0 +1,164 @@
+.main {
+  height: 40vh;
+}
+
+.brand {
+  font-family: "Cinzel Decorative", cursive;
+  font-family: "Shantell Sans", cursive;
+}
+
+::placeholder {
+  color: white;
+}
+
+.inp {
+  width: 90%;
+}
+
+.inp:focus {
+  outline: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .main {
+    height: 225vh !important;
+  }
+  .pay {
+    margin-left: 1.5em !important;
+  }
+  .partners {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .partner-img {
+    width: 80% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .main {
+    height: 140vh;
+  }
+  .pay {
+    margin-left: 6.5em;
+  }
+  .partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .partner-img {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .main {
+    height: 58vh;
+  }
+  .pay {
+    margin-left: 0em;
+  }
+  .partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5em !important;
+    width: 125%;
+  }
+  .partner-img {
+    width: 125%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 1.5em;
+  }
+  .logo {
+    margin-left: 5em !important;
+    width: 139%;
+  }
+  .brand {
+    font-size: 25px !important;
+  }
+  .brand-p {
+    width: 138%;
+  }
+  .shopping {
+    width: 47%;
+    margin-left: 12em;
+  }
+  .news {
+    margin-left: 11em;
+  }
+  .news-div {
+    width: 196%;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .main {
+    height: 57vh;
+  }
+  .pay {
+    margin-left: 0em;
+    width: 100%;
+  }
+  .partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5em !important;
+    width: 125%;
+  }
+  .partner-img {
+    width: 125%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 1.5em;
+  }
+  .logo {
+    margin-left: 5em !important;
+    width: 139%;
+  }
+  .brand {
+    font-size: 30px !important;
+  }
+  .brand-p {
+    width: 138%;
+    font-size: 22px;
+  }
+  .shopping {
+    width: 47%;
+    margin-left: 16em;
+  }
+  .news {
+    margin-left: 11em;
+  }
+  .news-div {
+    width: 196%;
+    margin-left: 5em !important;
+  }
+  .shop-head {
+    font-size: 30px;
+  }
+  .shop-btn {
+    font-size: 22px;
+  }
+  .news-head {
+    font-size: 27px !important;
+  }
+  .news-text {
+    font-size: 22px;
+  }
+  .copy {
+    font-size: 25px;
+  }
+}

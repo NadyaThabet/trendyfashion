@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+.user-dash {
+  margin-bottom: 5em;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .table-div {
+    width: 144.2% !important;
+    overflow: hidden;
+  }
+  .user-dash {
+    margin-left: -0.5em !important;
+    margin-top: 0rem !important;
+    margin-bottom: -4rem !important;
+  }
+  .first-tr {
+    font-size: 13.1px !important;
+    width: 100% !important;
+  }
+  .scnd-tr {
+    height: 50vh !important;
+  }
+  .btns-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 45vh;
+  }
+  .del-btn {
+    margin-right: 0em !important;
+  }
+  .admn-btn {
+    font-size: 14px;
+    margin-right: 1.5em;
+  }
+  .make-btn {
+    font-size: 14px;
+    margin-right: 0.5em;
+  }
+  .td-name {
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    justify-content: end;
+    font-size: 18px;
+    padding-right: 3px !important;
+  }
+  .th-txt {
+    width: 24.5% !important;
+  }
+  .t-head {
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .table-div {
+    width: 145%;
+    margin-left: -1.2em;
+    height: 73vh;
+  }
+  .user-dash {
+    margin-left: 0.5em !important;
+    margin-top: 0rem !important;
+    margin-bottom: 7rem !important;
+  }
+  .first-tr {
+    font-size: 23.9px !important;
+  }
+  .scnd-tr {
+    height: 30vh !important;
+  }
+  .btns-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30vh;
+  }
+  .del-btn {
+    margin-right: 0em !important;
+  }
+  .admn-btn {
+    font-size: 14px;
+    margin-right: -0.5em;
+  }
+  .make-btn {
+    font-size: 14px;
+    margin-right: -0.5em;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .table-div {
+    width: 134%;
+    margin-left: -0.3em;
+  }
+  .user-dash {
+    margin-left: 0.5em !important;
+    margin-top: 0rem !important;
+    margin-bottom: 7rem !important;
+  }
+  .first-tr {
+    font-size: 23.9px !important;
+    width: 100% !important;
+  }
+  .scnd-tr {
+    height: 15vh !important;
+  }
+  .btns-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+  }
+  .del-btn {
+    margin-right: 2em !important;
+    font-size: 20px;
+  }
+  .admn-btn {
+    font-size: 20px;
+    margin-right: 0em;
+  }
+  .make-btn {
+    font-size: 20px;
+    margin-right: 0em;
+  }
+  .two-btns {
+    font-size: 20px;
+  }
+  .td-name {
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: end;
+    font-size: 22px;
+    padding-right: 3px !important;
+  }
+  .th-txt {
+    width: 19.5% !important;
+  }
+  .t-head {
+    width: 95.5% !important;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .table-div {
+    width: 134%;
+    margin-left: -0.3em;
+  }
+  .user-dash {
+    margin-left: 0.5em !important;
+    margin-top: 0rem !important;
+    margin-bottom: 7rem !important;
+  }
+  .first-tr {
+    font-size: 23.9px !important;
+    width: 100% !important;
+  }
+  .scnd-tr {
+    height: 15vh !important;
+  }
+  .btns-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+  }
+  .del-btn {
+    margin-right: 2em !important;
+    font-size: 20px;
+  }
+  .admn-btn {
+    font-size: 20px;
+    margin-right: 0em;
+  }
+  .make-btn {
+    font-size: 20px;
+    margin-right: 0em;
+  }
+  .two-btns {
+    font-size: 20px;
+  }
+  .td-name {
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: end;
+    font-size: 22px;
+    padding-right: 3px !important;
+  }
+  .th-txt {
+    width: 19.5% !important;
+  }
+  .t-head {
+    width: 71% !important;
+  }
+}

@@ -1,0 +1,250 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.cart {
+  background-image: url(../Style/Images/empty-shopping.jpg) !important;
+  background-repeat: no-repeat !important;
+  background-size: 45% !important;
+  background-position: center !important;
+  height: 60vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: end !important;
+  align-items: center !important;
+}
+
+.cart-text {
+  width: 17% !important;
+  height: 17vh !important;
+  background-color: lightgrey !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+}
+
+.body {
+  overflow: hidden !important;
+}
+
+.cart-full {
+  margin-bottom: 7em !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .cart-text {
+    width: 74% !important;
+    height: 34vh !important;
+    background-color: lightgrey !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start;
+    align-items: center !important;
+    margin-right: 2.3em !important;
+  }
+  .cart {
+    background-image: url(../Style/Images/empty-shopping.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+  }
+  .table {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .table-tr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 4em;
+    margin-top: 1.5em;
+  }
+  .table-img {
+    display: flex;
+    justify-content: center;
+  }
+  .crd-img {
+    width: 40% !important;
+  }
+  .wallet {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .cart-text {
+    width: 59% !important;
+    height: 21vh !important;
+    background-color: lightgrey !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start;
+    align-items: center !important;
+    margin-right: 5.3em !important;
+  }
+  .cart {
+    background-image: url(../Style/Images/empty-shopping.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+  }
+  .table {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .table-tr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 6em;
+    margin-top: 1.5em;
+    width: 80%;
+  }
+  .table-img {
+    display: flex;
+    justify-content: center;
+  }
+  .crd-img {
+    width: 50% !important;
+  }
+  .wallet {
+    font-size: 22px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .cart-text {
+    width: 41% !important;
+    height: 17vh !important;
+    background-color: lightgrey !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start;
+    align-items: center !important;
+    margin-right: 13.3em !important;
+  }
+  .cart {
+    background-image: url(../Style/Images/empty-shopping.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+  }
+  .table {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .table-tr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 7.5em;
+    margin-top: 1.5em;
+    width: 80%;
+  }
+  .table-img {
+    display: flex;
+    justify-content: center;
+  }
+  .crd-img {
+    width: 50% !important;
+  }
+  .prodct-name {
+    font-size: 20px !important;
+  }
+  .wallet {
+    font-size: 25px !important;
+  }
+  .total {
+    font-size: 27px !important;
+  }
+  .now-btn {
+    font-size: 22px;
+  }
+  .check-btn {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .cart-text {
+    width: 41% !important;
+    height: 17vh !important;
+    background-color: lightgrey !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start;
+    align-items: center !important;
+    margin-right: 16em !important;
+  }
+  .cart {
+    background-image: url(../Style/Images/empty-shopping.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+  }
+  .table {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .table-tr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 13.5em;
+    margin-top: 1.5em;
+    width: 80%;
+  }
+  .table-img {
+    display: flex;
+    justify-content: center;
+  }
+  .crd-img {
+    width: 50% !important;
+  }
+  .prodct-name {
+    font-size: 25px !important;
+  }
+  .total {
+    font-size: 30px !important;
+  }
+  .check-btn {
+    font-size: 25px !important;
+  }
+  .wallet {
+    font-size: 30px;
+  }
+  .now-btn {
+    font-size: 25px;
+  }
+}

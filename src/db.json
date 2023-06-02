@@ -1,0 +1,123 @@
+{
+  "products": [
+    {
+      "img": "https://m.media-amazon.com/images/I/41hn+kIAZgL._AC_.jpg",
+      "name": "Activ mens ACTIV MEN CREW-NECK SWEATSHIRT Sweatshirt",
+      "price": "200",
+      "sort": "Sweatshirt",
+      "id": 1
+    },
+    {
+      "name": "White Pockets Plain Slim Fit Jeans Pants",
+      "price": "290",
+      "img": "https://m.media-amazon.com/images/I/41UNLFk9IxL._AC_SY679_.jpg",
+      "sort": "Pants",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "img": "https://m.media-amazon.com/images/I/71fllpmQnfL._AC_SX679_.jpg",
+      "name": "naruto hoodie49",
+      "price": 390,
+      "sort": "Hoodie"
+    },
+    {
+      "name": "Copper Bomb Jacket",
+      "price": "651",
+      "img": "https://m.media-amazon.com/images/I/519pXr8k7cL._AC_SX679_.jpg",
+      "sort": "Jacket",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "img": "https://m.media-amazon.com/images/I/41cmdWj-DUL._AC_.jpg",
+      "name": "Focus Waterproof Beige Jacket",
+      "price": 500,
+      "sort": "Jacket"
+    },
+    {
+      "name": "Black Clover hoodie1",
+      "price": 399,
+      "img": "https://m.media-amazon.com/images/I/61ZcbR2r5FL._AC_SX569_.jpg",
+      "sort": "Hoodie",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "img": "https://m.media-amazon.com/images/I/41ZWgHnMrzS._AC_SX679_.jpg",
+      "name": "Maestro Uncle Packet-142",
+      "price": 105,
+      "sort": "Socks"
+    },
+    {
+      "id": 8,
+      "img": "https://m.media-amazon.com/images/I/61-sJ1uucQL._AC_SX679_.jpg",
+      "name": "Gadardine Tough Fur Lined Youth Jacket",
+      "price": 599,
+      "sort": "Jacket"
+    },
+    {
+      "id": 9,
+      "img": "https://m.media-amazon.com/images/I/61UbGqL-DdL._AC_SX679_.jpg",
+      "name": "Bella Cotton BCS68 Drawstring Short",
+      "price": 170,
+      "sort": "Short"
+    },
+    {
+      "id": 10,
+      "img": "https://m.media-amazon.com/images/I/41Q8F1Y0IML._AC_.jpg",
+      "name": "TIA Casual Zip Fur Sleeve Hooded Jacket with Suede",
+      "price": 280,
+      "sort": "Jacket"
+    },
+    {
+      "id": 11,
+      "img": "https://m.media-amazon.com/images/I/41LaIWDR0kL._AC_.jpg",
+      "name": "jacket lined with fur",
+      "price": 1100,
+      "sort": "Jacket"
+    },
+    {
+      "id": 12,
+      "img": "https://m.media-amazon.com/images/I/31EFzZ6XRNL._AC_.jpg",
+      "name": "Kitten Kids Boys Waterproof Zipper Hooded Jacket",
+      "price": 309,
+      "sort": "Jacket"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/51pjcpQY0AL._AC_SY500_.jpg",
+      "name": "Italiano Suede half boot",
+      "price": "375",
+      "sort": "Shoes",
+      "id": 13
+    }
+  ],
+  "users": [
+    {
+      "username": "nadia123",
+      "firstname": "nadia",
+      "lastname": "thabet",
+      "email": "nadia@hotmail.com",
+      "pass": "123",
+      "gender": "female",
+      "city": "cairo",
+      "phone": "123456",
+      "role": "admin",
+      "image": "https://scontent.fcai19-2.fna.fbcdn.net/v/t1.6435-9/39072653_10160592557750577_6051893951273631744_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=174925&_nc_ohc=C2_XSD2gw0IAX92O0es&_nc_ht=scontent.fcai19-2.fna&oh=00_AfByPoWaRTmc9viS2vKijFOt3VjTPQZePQ103E8FRBAybA&oe=6479DA18",
+      "id": 1
+    },
+    {
+      "username": "mory456",
+      "firstname": "mourad",
+      "lastname": "el-lithy",
+      "email": "mory@hotmail.com",
+      "pass": "456",
+      "gender": "male",
+      "city": "cairo",
+      "phone": "789123",
+      "role": "user",
+      "image": "https://scontent.fcai19-2.fna.fbcdn.net/v/t31.18172-8/16835725_10158196962270577_368522979840354416_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=19026a&_nc_ohc=m3VsNUw3yV8AX9ufAxg&_nc_ht=scontent.fcai19-2.fna&oh=00_AfBm6KRKPU4Xjd1p1a8mDrT0G6KTymVbyrfPcc2bh0-rjA&oe=6479D766",
+      "id": 2
+    }
+  ]
+}

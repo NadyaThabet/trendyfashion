@@ -1,0 +1,48 @@
+.brand {
+  font-family: "Cinzel Decorative", cursive;
+  font-family: "Shantell Sans", cursive;
+}
+
+.middle-links:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: rgb(203, 26, 26);
+  text-decoration-thickness: 4px;
+  text-underline-offset: 7px;
+}
+
+.dot {
+  vertical-align: sub;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  .drp {
+    width: 20% !important;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .drp {
+    width: 20% !important;
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .nav-div {
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .nav-div {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .drp {
+    font-size: 22px;
+  }
+}
