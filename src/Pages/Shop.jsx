@@ -42,7 +42,6 @@ const Cards = ({ products, addProduct }) => {
             </Card>
           ))}
         </div>
-        ;
       </div>
     </div>
   );

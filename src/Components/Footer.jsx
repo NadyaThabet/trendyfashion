@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-3">
             <div className="mx-3 mt-5 logo">
-              <Navbar.Brand href="#home" className="fs-2 brand">
+              <Navbar.Brand href="#" className="fs-2 brand">
                 Trendy Fashion
                 <GoPrimitiveSquare className="text-danger fs-5 dot" />
               </Navbar.Brand>
