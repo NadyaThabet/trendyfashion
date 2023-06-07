@@ -11,7 +11,7 @@ const ProductsDashBoard = () => {
   const getData = () => {
     axios({
       method: "get",
-      url: "https://fashionmale.onrender.com/products",
+      url: "https://trendyfashiondata.onrender.com/products",
     }).then((data) => {
       setProducts(data.data);
     }, []);
@@ -35,7 +35,7 @@ const ProductsDashBoard = () => {
         Swal.fire("Deleted!", "Your file has been deleted.", "success");
         axios({
           method: "delete",
-          url: `https://fashionmale.onrender.com/products/${product.id}`,
+          url: `https://trendyfashiondata.onrender.com/products/${product.id}`,
         });
       }
       getData();

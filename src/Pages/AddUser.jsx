@@ -22,7 +22,7 @@ const AddUser = () => {
     e.preventDefault();
     axios({
       method: "post",
-      url: "https://fashionmale.onrender.com/users/",
+      url: "https://trendyfashiondata.onrender.com/users/",
       data: {
         username,
         firstname,

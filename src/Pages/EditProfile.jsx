@@ -55,7 +55,7 @@ const EditProfile = () => {
 
     axios({
       method: "put",
-      url: `https://fashionmale.onrender.com/users/${id}`,
+      url: `https://trendyfashiondata.onrender.com/users/${id}`,
       data: details,
     });
     setTimeout(() => {

@@ -17,7 +17,7 @@ const AddProducts = () => {
     e.preventDefault();
     axios({
       method: "post",
-      url: "https://fashionmale.onrender.com/products/",
+      url: "https://trendyfashiondata.onrender.com/products/",
       data: {
         name,
         price,

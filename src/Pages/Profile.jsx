@@ -10,7 +10,7 @@ const Profile = () => {
   useEffect(() => {
     axios({
       method: "get",
-      url: `https://fashionmale.onrender.com/users/${id}`,
+      url: `https://trendyfashiondata.onrender.com/users/${id}`,
     }).then((data) => {
       setUsers(data.data);
     });

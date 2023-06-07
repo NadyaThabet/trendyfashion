@@ -16,7 +16,7 @@ const Edit = () => {
   useEffect(() => {
     axios({
       method: "get",
-      url: `https://fashionmale.onrender.com/products/${id}`,
+      url: `https://trendyfashiondata.onrender.com/products/${id}`,
     }).then((details) => {
       setImg(details.data.img);
       setName(details.data.name);
@@ -32,7 +32,7 @@ const Edit = () => {
 
     axios({
       method: "put",
-      url: `https://fashionmale.onrender.com/products/${id}`,
+      url: `https://trendyfashiondata.onrender.com/products/${id}`,
       data: details,
     });
     setTimeout(() => {

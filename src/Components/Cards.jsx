@@ -11,7 +11,7 @@ const Cards = () => {
   useEffect(() => {
     axios({
       method: "get",
-      url: "https://fashionmale.onrender.com/products",
+      url: "https://trendyfashiondata.onrender.com/products",
     }).then((data) => {
       setProducts(data.data);
     });

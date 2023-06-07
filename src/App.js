@@ -31,7 +31,7 @@ const App = () => {
   useEffect(() => {
     axios({
       method: "get",
-      url: "https://fashionmale.onrender.com/products",
+      url: "https://trendyfashiondata.onrender.com/products",
     }).then((data) => {
       setProducts(data.data);
     });
@@ -40,7 +40,7 @@ const App = () => {
   useEffect(() => {
     axios({
       method: "get",
-      url: "https://fashionmale.onrender.com/users",
+      url: "https://trendyfashiondata.onrender.com/users",
     }).then((details) => {
       setUsers(details.data);
     });
