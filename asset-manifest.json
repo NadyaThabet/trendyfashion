@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/trendyfashion/static/css/main.937f7d84.css",
-    "main.js": "/trendyfashion/static/js/main.370d6496.js",
+    "main.js": "/trendyfashion/static/js/main.59a51263.js",
     "static/media/about-us.jpg": "/trendyfashion/static/media/about-us.05b80316a13651a25137.jpg",
     "static/media/hero-1.jpg": "/trendyfashion/static/media/hero-1.c081bcff664751bf4f02.jpg",
     "static/media/empty-shopping.jpg": "/trendyfashion/static/media/empty-shopping.a10c4f68e1ba633358c1.jpg",
@@ -10,10 +10,10 @@
     "static/media/banner-3.jpg": "/trendyfashion/static/media/banner-3.902e072bfedc4a1cabdf.jpg",
     "index.html": "/trendyfashion/index.html",
     "main.937f7d84.css.map": "/trendyfashion/static/css/main.937f7d84.css.map",
-    "main.370d6496.js.map": "/trendyfashion/static/js/main.370d6496.js.map"
+    "main.59a51263.js.map": "/trendyfashion/static/js/main.59a51263.js.map"
   },
   "entrypoints": [
     "static/css/main.937f7d84.css",
-    "static/js/main.370d6496.js"
+    "static/js/main.59a51263.js"
   ]
 }
