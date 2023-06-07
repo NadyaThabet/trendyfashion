@@ -10,7 +10,7 @@ const UsersDashBoard = () => {
   const getData = () => {
     axios({
       method: "get",
-      url: "http://localhost:5000/users",
+      url: "https://fashionmale.onrender.com/users",
     }).then((data) => {
       setUsers(data.data);
     });
@@ -33,7 +33,7 @@ const UsersDashBoard = () => {
       if (result.isConfirmed) {
         axios({
           method: "delete",
-          url: `http://localhost:5000/users/${user.id}`,
+          url: `https://fashionmale.onrender.com/users/${user.id}`,
         }).then(() => {
           getData();
           Swal.fire("Deleted!", "Your file has been deleted.", "success");
@@ -46,7 +46,7 @@ const UsersDashBoard = () => {
     const updatedUser = { ...user, role: "admin" };
     axios({
       method: "put",
-      url: `http://localhost:5000/users/${user.id}`,
+      url: `https://fashionmale.onrender.com/users/${user.id}`,
       data: updatedUser,
     }).then(() => {
       getData();
@@ -57,7 +57,7 @@ const UsersDashBoard = () => {
     const updatedUser = { ...user, role: "user" };
     axios({
       method: "put",
-      url: `http://localhost:5000/users/${user.id}`,
+      url: `https://fashionmale.onrender.com/users/${user.id}`,
       data: updatedUser,
     }).then(() => {
       getData();

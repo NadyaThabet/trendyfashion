@@ -17,7 +17,7 @@ const AddProducts = () => {
     e.preventDefault();
     axios({
       method: "post",
-      url: "http://localhost:5000/products/",
+      url: "https://fashionmale.onrender.com/products/",
       data: {
         name,
         price,

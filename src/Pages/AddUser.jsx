@@ -22,7 +22,7 @@ const AddUser = () => {
     e.preventDefault();
     axios({
       method: "post",
-      url: "http://localhost:5000/users/",
+      url: "https://fashionmale.onrender.com/users/",
       data: {
         username,
         firstname,

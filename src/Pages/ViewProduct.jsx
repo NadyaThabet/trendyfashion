@@ -8,7 +8,7 @@ const ProductDetails = () => {
   useEffect(() => {
     axios({
       method: "get",
-      url: `http://localhost:5000/products/${id}`,
+      url: `https://fashionmale.onrender.com/products/${id}`,
     }).then((details) => {
       setProducts(details.data);
     });

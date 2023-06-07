@@ -8,7 +8,7 @@ const ViewUser = () => {
   useEffect(() => {
     axios({
       method: "get",
-      url: `http://localhost:5000/users/${id}`,
+      url: `https://fashionmale.onrender.com/users/${id}`,
     }).then((details) => {
       setUsers(details.data);
     });

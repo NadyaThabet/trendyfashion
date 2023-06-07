@@ -22,7 +22,7 @@ const EditUser = () => {
   useEffect(() => {
     axios({
       method: "get",
-      url: `http://localhost:5000/users/${id}`,
+      url: `https://fashionmale.onrender.com/users/${id}`,
     }).then((details) => {
       setUserName(details.data.username);
       setFirstName(details.data.firstname);
@@ -55,7 +55,7 @@ const EditUser = () => {
 
     axios({
       method: "put",
-      url: `http://localhost:5000/users/${id}`,
+      url: `https://fashionmale.onrender.com/users/${id}`,
       data: details,
     });
     setTimeout(() => {
